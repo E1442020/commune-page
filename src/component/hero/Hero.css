@@ -19,8 +19,9 @@
 .hero-container .hero-content {
   width: 70%;
   display: flex;
+  align-items: stretch;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
 }
 @media (max-width: 940px) {
   .hero-container .hero-content {
@@ -33,7 +34,6 @@
 .hero-container .hero-content p {
   background-color: #2E285A;
   width: 60%;
-  display: flex;
   padding: 10px 15px;
   border: none;
   border-radius: 30px;
@@ -41,7 +41,6 @@
 }
 @media (max-width: 940px) {
   .hero-container .hero-content p {
-    flex-direction: column;
     width: 100%;
   }
 }
@@ -53,7 +52,12 @@
 .hero-container .hero-content h2 {
   color: rgb(52, 52, 52);
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 60px;
+}
+@media (max-width: 940px) {
+  .hero-container .hero-content h2 {
+    font-size: 35px;
+  }
 }
 .hero-container .hero-content span {
   color: gray;

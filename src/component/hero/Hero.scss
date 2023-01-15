@@ -8,10 +8,11 @@
         flex-direction: column;
         }
     .hero-content{
-        width: 70%;
+        width:70%;
         display: flex;
+        align-items: stretch;
         flex-direction: column;
-        gap: 10px;
+        gap: 25px;
         @include breakpoints(mobile){
             width: 100%;
             text-align: center;
@@ -21,12 +22,12 @@
         }
         p{
             @include breakpoints(mobile){
-                flex-direction: column;
+               
                 width: 100%;
             }
             background-color: $mainColor;
             width: 60%;
-            display: flex;
+            
             padding: 10px 15px;
             border: none;
             border-radius: 30px;
@@ -40,7 +41,10 @@
         h2{
             color:rgb(52, 52, 52) ;
             font-weight:bolder;
-            font-size: 50px;
+            font-size: 60px;
+            @include breakpoints(mobile){
+                font-size: 35px;
+            }
 
         }
         span{

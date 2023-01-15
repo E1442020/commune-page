@@ -9,7 +9,7 @@
 .page-container {
   width: 97%;
   margin: 20px auto;
-  padding: 40px 100px;
+  padding: 20px 100px;
   background-color: #F5F8FD;
   border: none;
   border-radius: 5px;
@@ -23,6 +23,7 @@
 
 .navbar-container {
   background-color: rgba(245, 248, 253, 0.8117647059);
+  padding-top: 20px;
   position: -webkit-sticky;
   position: sticky;
   left: 0;

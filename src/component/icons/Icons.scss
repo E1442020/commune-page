@@ -1,7 +1,7 @@
 @import '../../index.scss';
 
 .icon-container{
-    margin-top: 30px;
+    margin-top: 50px;
     p{
         color: gray;
         margin-bottom: 15px;
@@ -10,9 +10,10 @@
     .icons{
         display: flex;
         flex-wrap: wrap;
-        gap: 15px;
-        svg{
+        gap: 5px;
+            svg{
             cursor: pointer;
+            width: 40px;
         }
     }
 }

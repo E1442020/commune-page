@@ -7,7 +7,7 @@
 }
 
 .icon-container {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .icon-container p {
   color: gray;
@@ -17,8 +17,9 @@
 .icon-container .icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 5px;
 }
 .icon-container .icons svg {
   cursor: pointer;
+  width: 40px;
 }/*# sourceMappingURL=Icons.css.map */
