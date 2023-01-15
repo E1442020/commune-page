@@ -17,7 +17,7 @@
 .icon-container .icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
 }
 .icon-container .icons svg {
   cursor: pointer;
