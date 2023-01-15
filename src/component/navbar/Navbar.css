@@ -11,6 +11,8 @@
   margin: 20px auto;
   padding: 40px 100px;
   background-color: #F5F8FD;
+  border: none;
+  border-radius: 5px;
 }
 @media (max-width: 940px) {
   .page-container {
