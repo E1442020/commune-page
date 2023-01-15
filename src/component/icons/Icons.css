@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  list-style-type: none;
+}
+
+.icon-container {
+  margin-top: 30px;
+}
+.icon-container p {
+  color: gray;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.icon-container .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.icon-container .icons svg {
+  cursor: pointer;
+}/*# sourceMappingURL=Icons.css.map */

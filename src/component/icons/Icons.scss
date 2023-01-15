@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.icon-container{
+    margin-top: 30px;
+    p{
+        color: gray;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        svg{
+            cursor: pointer;
+        }
+    }
+}
